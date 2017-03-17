@@ -1,65 +1,6 @@
 Mathematical engineer, particularly interested in graph theory, Markov chains, stochastic processes and randomised optmisation algorithms. Currently working on crowdsourcing, human computation and privacy issues in recommender systems. Also interested in high performance parallel computing and big data analysis.
 
 
-## <i class="fa fa-chevron-right"></i> Skills
-<table class="table table-hover">
-<tr>
-  <td class='col-md-2'>Languages</td>
-  <td markdown="1">
-Bash, C, C++, CSS, Fortran, Haskell, HTML, Java, JavaScript, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Frameworks</td>
-  <td markdown="1">
-Akka, Android SDK/NDK, Caffe, Node.js, NumPy, TensorFlow, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Systems</td>
-  <td markdown="1">
-Linux, OSX
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Algorithm design</td>
-  <td markdown="1">
-Design, convergence rate and complexity analysis of decentralised algorithms on graphs.
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Convex optimisation</td>
-  <td markdown="1">
-Convex optimisation, with application to discrete problems. Numerical methods for approximate solution of optimisation problems.
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Data Mining</td>
-  <td markdown="1">
-Monte Carlo Markov chains techniques for data mining and feature selection, applied to medical diagnostic and artificial olfaction.
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Privacy in recommender systems</td>
-  <td markdown="1">
-Probabilistic matrix factorisation applied to recommender systems, with focus on privacy issues.
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Simulatots</td>
-  <td markdown="1">
-Event-based simulators design for wireless network analysis.
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Statistical inference</td>
-  <td markdown="1">
-Bayesian modelling and exploratory data analysis, with focus on big data.
-  </td>
-</tr>
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> Education
 
 <table class="table table-hover">
@@ -69,29 +10,6 @@ Bayesian modelling and exploratory data analysis, with focus on big data.
         <strong>Ph.D. in Computer Science</strong>
         <br>
       Hamilton Institute
-    </td>
-  </tr>
-  <tr>
-    <td class="col-md-3">Aug 2014 - May 2016</td>
-    <td>
-        <strong>M.S. in Computer Science</strong>
-        <br>
-      Carnegie Mellon University
-    </td>
-  </tr>
-  <tr>
-    <td class="col-md-3">Aug 2011 - May 2014</td>
-    <td>
-        <strong>B.S. in Computer Science</strong>
-          (3.99/4.00)
-        <br>
-      Virginia Tech
-    </td>
-  </tr>
-  <tr>
-    <td class="col-md-3">May 2011</td>
-    <td>
-      Northside High School (Roanoke, Virginia)
     </td>
   </tr>
 </table>
@@ -351,6 +269,59 @@ Internship in high school to replace Windows domain, mail, DHCP, and DNS servers
 </li>
 </ul>
 </td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Skills
+<table class="table table-hover">
+<tr>
+  <td class='col-md-2'>Languages</td>
+  <td markdown="1">
+Bash, C, C++, CSS, Matlab, JavaScript, Fortran, HTML, LaTeX, *Mathematica*, Python, R
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Frameworks</td>
+  <td markdown="1">
+Spark, Cloudera, Pandas, NumPy, SciPy, SimPy, scikit-learn
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Algorithm design</td>
+  <td markdown="1">
+Design, convergence rate and complexity analysis of decentralised algorithms on graphs.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Convex optimisation</td>
+  <td markdown="1">
+Convex optimisation, with application to discrete problems. Numerical methods for approximate solution of optimisation problems.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Data Mining</td>
+  <td markdown="1">
+Monte Carlo Markov chains techniques for data mining and feature selection, applied to medical diagnostic and artificial olfaction.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Privacy in recommender systems</td>
+  <td markdown="1">
+Probabilistic matrix factorisation applied to recommender systems, with focus on privacy issues.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Simulatots</td>
+  <td markdown="1">
+Event-based simulators design for wireless network analysis.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Statistical inference</td>
+  <td markdown="1">
+Bayesian modelling and exploratory data analysis, with focus on big data.
+  </td>
 </tr>
 </table>
 
