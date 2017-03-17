@@ -3,6 +3,7 @@ layout: post
 title:  PGP
 ---
 
+<!---
 I sign and encrypt emails with PGP, which means my emails
 have a signature attached verifying that the message was sent
 by me and not somebody else.
@@ -11,6 +12,8 @@ PGP as `noname` because the attachment doesn't have a filename.
 Please download my key from [here](/data/bdamos_pgp.asc)
 or from any [SKS OpenPGP Keyserver](http://keyserver.cns.vt.edu/),
 and do get in contact if you would like to exchange signatures.
+-->
+
 
 For more information on PGP, I recommend the following pages.
 

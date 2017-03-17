@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Brandon Amos
+title: Alessandro Checco
 ---
 
 {% include cv.md %}
@@ -19,6 +19,7 @@ title: Brandon Amos
 </table>
 <h4><a href="/blog">View all</a></h4>
 
+<!---
 ## <i class="fa fa-chevron-right"></i> Fun Side Projects
 + [CS conference tracker](https://github.com/bamos/conference-tracker).
 + [SnowGlobe](https://github.com/bamos/snowglobe):
@@ -53,6 +54,7 @@ title: Brandon Amos
   and [beamer-snippets](https://github.com/bamos/beamer-snippets):
   Personal collection and previewing of LaTeX and Beamer snippets.
   Admittedly, I now use Keynote for presentations.
+-->
 
 ---
 

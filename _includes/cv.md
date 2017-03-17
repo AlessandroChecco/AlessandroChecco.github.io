@@ -1,8 +1,63 @@
- Lorem Ipsum I am a third-year Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I spent the first two years of my Ph.D. working between mobile systems and applied machine learning and I now work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. 
+Mathematical engineer, particularly interested in graph theory, Markov chains, stochastic processes and randomised optmisation algorithms. Currently working on crowdsourcing, human computation and privacy issues in recommender systems. Also interested in high performance parallel computing and big data analysis.
 
-As an example, we've recently been exploring the intersection of deep learning and convex optimization with input convex neural networks (ICNNs): neural networks that are convex with respect to some of the inputs. Our preprint is available at [arXiv:1609.07152](https://arxiv.org/abs/1609.07152) and shows applications to multi-label classification, image completion, and continuous-action reinforcement learning. 
 
-I strongly believe in open science and reproducible research and actively publish code on [my Github profile](https://github.com/bamos). I am also the author of [OpenFace](https://cmusatyalab.github.io/openface/), which is an open source face recognition project that uses deep learning.
+## <i class="fa fa-chevron-right"></i> Skills
+<table class="table table-hover">
+<tr>
+  <td class='col-md-2'>Languages</td>
+  <td markdown="1">
+Bash, C, C++, CSS, Fortran, Haskell, HTML, Java, JavaScript, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Frameworks</td>
+  <td markdown="1">
+Akka, Android SDK/NDK, Caffe, Node.js, NumPy, TensorFlow, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Systems</td>
+  <td markdown="1">
+Linux, OSX
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Algorithm design</td>
+  <td markdown="1">
+Design, convergence rate and complexity analysis of decentralised algorithms on graphs.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Convex optimisation</td>
+  <td markdown="1">
+Convex optimisation, with application to discrete problems. Numerical methods for approximate solution of optimisation problems.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Data Mining</td>
+  <td markdown="1">
+Monte Carlo Markov chains techniques for data mining and feature selection, applied to medical diagnostic and artificial olfaction.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Privacy in recommender systems</td>
+  <td markdown="1">
+Probabilistic matrix factorisation applied to recommender systems, with focus on privacy issues.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Simulatots</td>
+  <td markdown="1">
+Event-based simulators design for wireless network analysis.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Statistical inference</td>
+  <td markdown="1">
+Bayesian modelling and exploratory data analysis, with focus on big data.
+  </td>
+</tr>
+</table>
 
 
 ## <i class="fa fa-chevron-right"></i> Education
@@ -13,7 +68,7 @@ I strongly believe in open science and reproducible research and actively publis
     <td>
         <strong>Ph.D. in Computer Science</strong>
         <br>
-      Carnegie Mellon University
+      Hamilton Institute
     </td>
   </tr>
   <tr>
@@ -84,7 +139,7 @@ I strongly believe in open science and reproducible research and actively publis
 
 ## <i class="fa fa-chevron-right"></i> Selected Publications <a href="https://github.com/bamos/cv/blob/master/publications/selected.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-<a href="https://scholar.google.com/citations?user=CZwrwHAAAAAJ" class="btn btn-primary" style="padding: 0.3em;">
+<a href="https://scholar.google.com/citations?user=crhkrNcAAAAJ" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
 </a>
 
@@ -360,32 +415,9 @@ Internship in high school to replace Windows domain, mail, DHCP, and DNS servers
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Skills
-<table class="table table-hover">
-<tr>
-  <td class='col-md-2'>Languages</td>
-  <td markdown="1">
-Bash, C, C++, CSS, Fortran, Haskell, HTML, Java, JavaScript, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Frameworks</td>
-  <td markdown="1">
-Akka, Android SDK/NDK, Caffe, Node.js, NumPy, TensorFlow, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Systems</td>
-  <td markdown="1">
-Linux, OSX
-  </td>
-</tr>
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> All Publications <a href="https://github.com/bamos/cv/blob/master/publications/"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-<a href="https://scholar.google.com/citations?user=CZwrwHAAAAAJ" class="btn btn-primary" style="padding: 0.3em;">
+<a href="https://scholar.google.com/citations?user=crhkrNcAAAAJ" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
 </a>
 
