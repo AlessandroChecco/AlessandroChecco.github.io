@@ -113,12 +113,12 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/checco2014fast.png"/></td>
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1405.6987' target='_blank'><img src="images/publications/checco2014fast.png"/></a> </td>
 <td>
     <strong>Fast, Responsive Decentralised Graph Colouring</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     arXiv preprint arXiv:1405.6987 2014<br>
-    [3]<br>
+    [3] [<a href='https://arxiv.org/pdf/1405.6987' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
