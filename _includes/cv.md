@@ -89,48 +89,12 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
 <table class="table table-hover">
 
 <tr>
-<td class="col-md-3"><img src="images/publications/checco2015blc.png"/></td>
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1509.05789' target='_blank'><img src="images/publications/checco2015blc.png"/></a> </td>
 <td>
     <strong>BLC: Private Matrix Factorization Recommenders via Automatic Group Learning</strong><br>
     <strong>A. Checco</strong>, G. Bianchi, and D. Leith<br>
-    2017<br>
-    [1]<br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'><img src="images/publications/bellaltachannel.png"/></a> </td>
-<td>
-    <strong>Channel Bonding in Short-Range WLANs</strong><br>
-    B. Bellalta, A. Faridi, J. Barcelo, <strong>A. Checco</strong>, and P. Chatzimisios<br>
-    2014<br>
-    [2] [<a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://arxiv.org/pdf/1404.0180' target='_blank'><img src="images/publications/bellalta2014throughput.png"/></a> </td>
-<td>
-    <strong>Throughput Analysis in CSMA/CA Networks using Continuous Time Markov Networks: A Tutorial</strong><br>
-    B. Bellalta, A. Zocca, C. Cano, <strong>A. Checco</strong>, J. Barcelo, and A. Vinel<br>
-    2014<br>
-    [3] [<a href='http://arxiv.org/pdf/1404.0180' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://arxiv.org/pdf/1401.1551' target='_blank'><img src="images/publications/checco2014using.png"/></a> </td>
-<td>
-    <strong>Using Crowd sourcing for Local Topology Discovery in Wireless Networks</strong><br>
-    <strong>A. Checco</strong>, C. Lancia, and D. Leith<br>
-    2014<br>
-    [4] [<a href='http://arxiv.org/pdf/1401.1551' target='_blank'>pdf</a>] <br>
+    ACM Transactions on ACM Transactions on Privacy and Security (TOPS) 2017<br>
+    [1] [<a href='https://arxiv.org/pdf/1509.05789' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -141,44 +105,8 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
 <td>
     <strong>Learning-Based Constraint Satisfaction With Sensing Restrictions</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
-    2013<br>
-    [5] [<a href='http://arxiv.org/pdf/1210.7156' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'><img src="images/publications/ELTIT.png"/></a> </td>
-<td>
-    <strong>Fair Virtualisation of 802.11 Networks</strong><br>
-    <strong>A. Checco</strong> and D. Leith<br>
-    2013<br>
-    [6] [<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'><img src="images/publications/checco2011proportional.png"/></a> </td>
-<td>
-    <strong>Proportional Fairness in 802.11 Wireless LANs</strong><br>
-    <strong>A. Checco</strong> and D. Leith<br>
-    2011<br>
-    [7] [<a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'><img src="images/publications/checco2012self.png"/></a> </td>
-<td>
-    <strong>Self-configuration of Scrambling codes for WCDMA Small Cell Networks</strong><br>
-    <strong>A. Checco</strong>, R. Razavi, D. Leith, and H. Claussen<br>
-    2012<br>
-    [8] [<a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'>pdf</a>] <br>
+    IEEE Journal of Selected Topics in Signal Processing 2013<br>
+    [2] [<a href='http://arxiv.org/pdf/1210.7156' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -189,8 +117,80 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
 <td>
     <strong>Fast, Responsive Decentralised Graph Colouring</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
-    2014<br>
-    [9]<br>
+    arXiv preprint arXiv:1405.6987 2014<br>
+    [3]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'><img src="images/publications/ELTIT.png"/></a> </td>
+<td>
+    <strong>Fair Virtualisation of 802.11 Networks</strong><br>
+    <strong>A. Checco</strong> and D. Leith<br>
+    IEEE/ACM Transactions on Networking 2013<br>
+    [4] [<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'><img src="images/publications/checco2011proportional.png"/></a> </td>
+<td>
+    <strong>Proportional Fairness in 802.11 Wireless LANs</strong><br>
+    <strong>A. Checco</strong> and D. Leith<br>
+    IEEE Communications Letters 2011<br>
+    [5] [<a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'><img src="images/publications/bellaltachannel.png"/></a> </td>
+<td>
+    <strong>Channel Bonding in Short-Range WLANs</strong><br>
+    B. Bellalta, A. Faridi, J. Barcelo, <strong>A. Checco</strong>, and P. Chatzimisios<br>
+    European Wireless 2014<br>
+    [6] [<a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://arxiv.org/pdf/1404.0180' target='_blank'><img src="images/publications/bellalta2014throughput.png"/></a> </td>
+<td>
+    <strong>Throughput Analysis in CSMA/CA Networks using Continuous Time Markov Networks: A Tutorial</strong><br>
+    B. Bellalta, A. Zocca, C. Cano, <strong>A. Checco</strong>, J. Barcelo, and A. Vinel<br>
+    arXiv preprint arXiv:1404.0180 2014<br>
+    [7] [<a href='http://arxiv.org/pdf/1404.0180' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://arxiv.org/pdf/1401.1551' target='_blank'><img src="images/publications/checco2014using.png"/></a> </td>
+<td>
+    <strong>Using Crowd sourcing for Local Topology Discovery in Wireless Networks</strong><br>
+    <strong>A. Checco</strong>, C. Lancia, and D. Leith<br>
+    arXiv preprint arXiv:1401.1551 2014<br>
+    [8] [<a href='http://arxiv.org/pdf/1401.1551' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'><img src="images/publications/checco2012self.png"/></a> </td>
+<td>
+    <strong>Self-configuration of Scrambling codes for WCDMA Small Cell Networks</strong><br>
+    <strong>A. Checco</strong>, R. Razavi, D. Leith, and H. Claussen<br>
+    IEEE 23rd International Symposium on Personal Indoor and Mobile Radio Communications (PIMRC) 2012<br>
+    [9] [<a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -199,9 +199,9 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
 <tr>
 <td class="col-md-3"><img src="images/publications/bonding2015.png"/></td>
 <td>
-    <strong>On the Interactions between Multiple Overlapping WLANs using Channel Bonding</strong><br>
+    <strong>On the interactions between multiple overlapping WLANs using channel bonding</strong><br>
     B. Bellalta, <strong>A. Checco</strong>, A. Zocca, and J. Barcelo<br>
-    2015, accepted for publication<br>
+    IEEE Transactions on Vehicular Technology 2016<br>
     [10]<br>
     
 </td>
