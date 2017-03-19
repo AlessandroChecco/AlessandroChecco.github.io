@@ -268,7 +268,7 @@ Probabilistic matrix factorisation applied to recommender systems, with focus on
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>Simulatots</td>
+  <td class='col-md-2'>Simulators</td>
   <td markdown="1">
 Event-based simulators design for wireless network analysis
   </td>
