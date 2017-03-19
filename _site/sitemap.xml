@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://AlessandroChecco.github.io/2017/03/19/pairwise/</loc>
+<loc>http://AlessandroChecco.github.io/2017/03/19/class_imbalance/</loc>
 <lastmod>2017-03-19T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://AlessandroChecco.github.io/2017/03/18/pairwise/</loc>
+<lastmod>2017-03-18T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://AlessandroChecco.github.io/404.html</loc>
