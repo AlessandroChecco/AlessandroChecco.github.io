@@ -9,19 +9,56 @@
       type="application/rss+xml" />
     
     <item>
-      <title>Test blog post</title>
+      <title>Pairwise, Magnitude, or Stars: What's the Best Way for Crowds to Rate?</title>
       <description>&lt;ul id=&quot;toc&quot;&gt;&lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;This article introduces how I manage my music on the&lt;/p&gt;
+&lt;h1 id=&quot;is-the-ubiquitous-five-star-rating-system-improvable&quot;&gt;IS THE UBIQUITOUS FIVE STAR RATING SYSTEM IMPROVABLE?&lt;/h1&gt;
+&lt;p&gt;We compare three popular techniques of rating content: five star rating, pairwise comparison, and magnitude estimation.&lt;/p&gt;
+
+&lt;p&gt;We collected 39 000 ratings on a popular crowdsourcing platform, allowing us to release a dataset that will be useful for many related studies on user rating techniques.
+The&lt;strong&gt; dataset is available &lt;a href=&quot;http://github.com/AlessandroChecco/PairwiseMagnitudeStars&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;METHODOLOGY&lt;/h2&gt;
+&lt;p&gt;We ask each worker to rate 10 popular paintings using 3 rating methods:&lt;/p&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;&lt;b&gt;Magnitude: &lt;/b&gt;Using any positive number (zero excluded).&lt;/li&gt;
+ 	&lt;li&gt;&lt;b&gt;Star: &lt;/b&gt;Choosing between 1 to 5 stars.&lt;/li&gt;
+ 	&lt;li&gt;&lt;b&gt;Pairwise: &lt;/b&gt;Pairwise comparisons between two images, with no ties allowed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We run 6 different experiments (one for each combination of these three types) with 100 participants in each of them. We can thus analyze the bias given by the rating system order, and the results without order bias by using the aggregated data.&lt;/p&gt;
+
+&lt;p&gt;At the end of the rating activity in the task, we &lt;strong&gt;dynamically build&lt;/strong&gt; the three painting rankings induced by the choices of the participant, and &lt;strong&gt;ask them&lt;/strong&gt; which of the three rankings better reflects their preference (the ranking comparison is blind: There is no indication on how each ranking has been obtained, and their order is randomized).&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;size-full wp-image-9431&quot; src=&quot;http://humancomputation.com/blog/wp-content/uploads/2016/10/final.png&quot; alt=&quot;Graphical interface to let the worker express their preference on the ranking induced by their own ratings &quot; width=&quot;80%&quot; /&gt; &lt;br /&gt;Graphical interface to let the worker express their preference on the ranking induced by their own ratings.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-the-preferred-technique&quot;&gt;WHAT’S THE PREFERRED TECHNIQUE?&lt;/h2&gt;
+&lt;p&gt;Participants clearly &lt;em&gt;prefer the ranking obtained from their pairwise comparisons&lt;/em&gt;.  We notice a memory bias effect: The last technique used is more likely to get the most accurate description of the real user preference. Despite this, the pairwise comparison technique obtained the maximum number of preferences in all cases.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://humancomputation.com/blog/wp-content/uploads/2016/10/wins.png&quot; alt=&quot;Number of expression of preference of the ranking induced by the three different techniques, grouped by the order in which the tests have been run&quot; width=&quot;80%&quot; /&gt;&lt;br /&gt; Number of expression of preference of the ranking induced by the three different techniques.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;effort&quot;&gt;EFFORT&lt;/h2&gt;
+&lt;p&gt;While the pairwise comparison technique clearly requires more time than the other techniques, it would be comparable in terms of time with the other techniques using a dynamic test system (of order NlogN).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://humancomputation.com/blog/wp-content/uploads/2016/10/ACFrOgBy0st8tx-qpPwScwr9u4L9DrV9KDj0IkXYdK4Yzc-bMgUB25oZ6ZGDn9aOGT6eZZN0xTEAHbcN4RxD1kBp6Fcj3aN90-j6g-nU7FVhc5piPOhj22T7SLU5cLw.png&quot; alt=&quot;Average time per test, grouped by the order in which the tests have been run&quot; width=&quot;80%&quot; /&gt;&lt;br /&gt; Average time per test.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-we-learn&quot;&gt;WHAT DID WE LEARN?&lt;/h2&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;Star rating is confirmed to be the most familiar way for users to rate content.&lt;/li&gt;
+ 	&lt;li&gt;Magnitude is unintuitive with no added benefit.&lt;/li&gt;
+ 	&lt;li&gt;Pairwise comparison, while requiring a higher number of low-effort user ratings, best reflects intrinsic user preferences and seems to be a promising alternative.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;For more, see our full paper, &lt;a href=&quot;https://arxiv.org/abs/1609.00683&quot;&gt;Pairwise, Magnitude, or Stars: What’s the Best Way for Crowds to Rate?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 class=&quot;title mathjax&quot;&gt;&lt;em&gt;&lt;small&gt;&lt;a href=&quot;https://scholar.google.com/citations?user=crhkrNcAAAAJ&amp;amp;hl=en&quot;&gt;Alessandro Checco&lt;/a&gt;, Information School, University of Sheffield&lt;/small&gt;&lt;/em&gt;
+&lt;em&gt;&lt;small&gt;&lt;a href=&quot;https://www.sheffield.ac.uk/is/staff/demartini&quot;&gt;Gianluca Demartini&lt;/a&gt;, Information School, University of Sheffield&lt;/small&gt;&lt;/em&gt;&lt;/h3&gt;
 
 </description>
       <pubDate>
-        Fri, 17 Mar 2017 00:00:00 +0000
+        Sun, 19 Mar 2017 00:00:00 +0000
       </pubDate>
-      <link>http://AlessandroChecco.github.io/2017/03/17/test/</link>
-      <guid isPermaLink="true">http://AlessandroChecco.github.io/2017/03/17/test/</guid>
+      <link>http://AlessandroChecco.github.io/2017/03/19/pairwise/</link>
+      <guid isPermaLink="true">http://AlessandroChecco.github.io/2017/03/19/pairwise/</guid>
     </item>
     
   </channel>
