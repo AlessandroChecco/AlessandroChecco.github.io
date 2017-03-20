@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://AlessandroChecco.github.io/2017/03/20/modop/</loc>
+<lastmod>2017-03-20T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://AlessandroChecco.github.io/2017/03/19/class_imbalance/</loc>
 <lastmod>2017-03-19T00:00:00+00:00</lastmod>
 </url>
@@ -22,5 +26,9 @@
 </url>
 <url>
 <loc>http://AlessandroChecco.github.io/pgp/</loc>
+</url>
+<url>
+<loc>http://AlessandroChecco.github.io/data/assets/player/KeynoteDHTMLPlayer.html</loc>
+<lastmod>2015-10-31T08:56:32+00:00</lastmod>
 </url>
 </urlset>
