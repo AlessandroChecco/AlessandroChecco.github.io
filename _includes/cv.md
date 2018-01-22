@@ -1,4 +1,4 @@
-Mathematical engineer, particularly interested in graph theory, Markov chains, stochastic processes and randomised optmisation algorithms. Currently working on crowdsourcing, human computation and privacy issues in recommender systems. Also interested in high performance parallel computing and big data analysis.
+Mathematical engineer, particularly interested in Crowdsourcing for Human Computation, Distributed Private Recommender Systems, Information Retrieval, Data Privacy, Distributed Systems, User Data Obfuscation in Web Systems, Societal and Economic Analysis of Online Work, Crowd Workers Unionisation, Algorithmic Bias, Techniques to improve Transparency in Clinical Trials Design. I am the research director of the <a href="http://fashionbrain-project.eu/">FashionBrain project</a>.
 
 
 ## <i class="fa fa-chevron-right"></i> Education
@@ -53,7 +53,7 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
   <td class='col-md-3'>2017 - present</td>
   <td>
     <strong>Information School, University of Sheffield</strong>, Dr. Gianluca Demartini <br>
-    <small>Research Associate on the H2020-funded project FashionBrain on Crowsourcing and recommender systems </small> <br>
+    <small>Research Director of the H2020-funded project FashionBrain on Crowsourcing and recommender systems </small> <br>
   </td>
 </tr>
 <tr>
@@ -89,72 +89,24 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
 <table class="table table-hover">
 
 <tr>
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1609.00683' target='_blank'><img src="images/publications/checco2016pairwise.png"/></a> </td>
+<td class="col-md-3"><img src="images/publications/bonding2015.png"/></td>
 <td>
-    <strong>Pairwise, Magnitude, or Stars: What's the Best Way for Crowds to Rate?</strong><br>
-    <strong>A. Checco</strong> and G. Demartini<br>
-    arXiv preprint arXiv:1609.00683 2016<br>
-    [1] [<a href='https://arxiv.org/pdf/1609.00683' target='_blank'>pdf</a>] <br>
+    <strong>On the interactions between multiple overlapping WLANs using channel bonding</strong><br>
+    B. Bellalta, <strong>A. Checco</strong>, A. Zocca, and J. Barcelo<br>
+    IEEE Transactions on Vehicular Technology 2016<br>
+    [1]<br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1509.05789' target='_blank'><img src="images/publications/checco2015blc.png"/></a> </td>
+<td class="col-md-3"><img src="images/publications/checco2017let.png"/></td>
 <td>
-    <strong>BLC: Private Matrix Factorization Recommenders via Automatic Group Learning</strong><br>
-    <strong>A. Checco</strong>, G. Bianchi, and D. Leith<br>
-    ACM Transactions on ACM Transactions on Privacy and Security (TOPS) 2017<br>
-    [2] [<a href='https://arxiv.org/pdf/1509.05789' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://arxiv.org/pdf/1210.7156' target='_blank'><img src="images/publications/checco2013learning.png"/></a> </td>
-<td>
-    <strong>Learning-Based Constraint Satisfaction With Sensing Restrictions</strong><br>
-    <strong>A. Checco</strong> and D. Leith<br>
-    IEEE Journal of Selected Topics in Signal Processing 2013<br>
-    [3] [<a href='http://arxiv.org/pdf/1210.7156' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1405.6987' target='_blank'><img src="images/publications/checco2014fast.png"/></a> </td>
-<td>
-    <strong>Fast, Responsive Decentralised Graph Colouring</strong><br>
-    <strong>A. Checco</strong> and D. Leith<br>
-    arXiv preprint arXiv:1405.6987 2014<br>
-    [4] [<a href='https://arxiv.org/pdf/1405.6987' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'><img src="images/publications/ELTIT.png"/></a> </td>
-<td>
-    <strong>Fair Virtualisation of 802.11 Networks</strong><br>
-    <strong>A. Checco</strong> and D. Leith<br>
-    IEEE/ACM Transactions on Networking 2013<br>
-    [5] [<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'><img src="images/publications/checco2011proportional.png"/></a> </td>
-<td>
-    <strong>Proportional Fairness in 802.11 Wireless LANs</strong><br>
-    <strong>A. Checco</strong> and D. Leith<br>
-    IEEE Communications Letters 2011<br>
-    [6] [<a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'>pdf</a>] <br>
+    <strong>Let's agree to disagree: Fixing agreement measures for crowdsourcing</strong><br>
+    <strong>A. Checco</strong>, A. Roitero, E. Maddalena, S. Mizzaro, and G. Demartini<br>
+    Proceedings of the Fifth AAAI Conference on Human Computation and Crowdsourcing (HCOMP-17) 2017<br>
+    [2]<br>
     
 </td>
 </tr>
@@ -166,7 +118,7 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
     <strong>Channel Bonding in Short-Range WLANs</strong><br>
     B. Bellalta, A. Faridi, J. Barcelo, <strong>A. Checco</strong>, and P. Chatzimisios<br>
     European Wireless 2014<br>
-    [7] [<a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'>pdf</a>] <br>
+    [3] [<a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -178,7 +130,43 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
     <strong>Throughput Analysis in CSMA/CA Networks using Continuous Time Markov Networks: A Tutorial</strong><br>
     B. Bellalta, A. Zocca, C. Cano, <strong>A. Checco</strong>, J. Barcelo, and A. Vinel<br>
     arXiv preprint arXiv:1404.0180 2014<br>
-    [8] [<a href='http://arxiv.org/pdf/1404.0180' target='_blank'>pdf</a>] <br>
+    [4] [<a href='http://arxiv.org/pdf/1404.0180' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/partov2017recommending.png"/></td>
+<td>
+    <strong>Recommending access points to individual mobile users via automatic group learning</strong><br>
+    B. Partov, D. Leith, and <strong>A. Checco</strong><br>
+    Communications (ICC), 2017 IEEE International Conference on 2017<br>
+    [5]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1509.05789' target='_blank'><img src="images/publications/checco2015blc.png"/></a> </td>
+<td>
+    <strong>BLC: Private Matrix Factorization Recommenders via Automatic Group Learning</strong><br>
+    <strong>A. Checco</strong>, G. Bianchi, and D. Leith<br>
+    ACM Transactions on Privacy and Security (TOPS) 2017<br>
+    [6] [<a href='https://arxiv.org/pdf/1509.05789' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1609.00683' target='_blank'><img src="images/publications/checco2016pairwise.png"/></a> </td>
+<td>
+    <strong>Pairwise, Magnitude, or Stars: What's the Best Way for Crowds to Rate?</strong><br>
+    <strong>A. Checco</strong> and G. Demartini<br>
+    arXiv preprint arXiv:1609.00683 2016<br>
+    [7] [<a href='https://arxiv.org/pdf/1609.00683' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -190,7 +178,67 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
     <strong>Using Crowd sourcing for Local Topology Discovery in Wireless Networks</strong><br>
     <strong>A. Checco</strong>, C. Lancia, and D. Leith<br>
     arXiv preprint arXiv:1401.1551 2014<br>
-    [9] [<a href='http://arxiv.org/pdf/1401.1551' target='_blank'>pdf</a>] <br>
+    [8] [<a href='http://arxiv.org/pdf/1401.1551' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/gadiraju2017modus.png"/></td>
+<td>
+    <strong>Modus operandi of crowd workers: The invisible role of microtask work environments</strong><br>
+    U. Gadiraju, <strong>A. Checco</strong>, N. Gupta, and G. Demartini<br>
+    Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2017<br>
+    [9]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1405.6987' target='_blank'><img src="images/publications/checco2014fast.png"/></a> </td>
+<td>
+    <strong>Fast, Responsive Decentralized Graph Coloring</strong><br>
+    <strong>A. Checco</strong> and D. Leith<br>
+    IEEE/ACM Transactions on Networking 2017<br>
+    [10] [<a href='https://arxiv.org/pdf/1405.6987' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://arxiv.org/pdf/1210.7156' target='_blank'><img src="images/publications/checco2013learning.png"/></a> </td>
+<td>
+    <strong>Learning-Based Constraint Satisfaction With Sensing Restrictions</strong><br>
+    <strong>A. Checco</strong> and D. Leith<br>
+    IEEE Journal of Selected Topics in Signal Processing 2013<br>
+    [11] [<a href='http://arxiv.org/pdf/1210.7156' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'><img src="images/publications/ELTIT.png"/></a> </td>
+<td>
+    <strong>Fair Virtualisation of 802.11 Networks</strong><br>
+    <strong>A. Checco</strong> and D. Leith<br>
+    IEEE/ACM Transactions on Networking 2013<br>
+    [12] [<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'><img src="images/publications/checco2011proportional.png"/></a> </td>
+<td>
+    <strong>Proportional Fairness in 802.11 Wireless LANs</strong><br>
+    <strong>A. Checco</strong> and D. Leith<br>
+    IEEE Communications Letters 2011<br>
+    [13] [<a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -202,19 +250,7 @@ Mathematical engineer, particularly interested in graph theory, Markov chains, s
     <strong>Self-configuration of Scrambling codes for WCDMA Small Cell Networks</strong><br>
     <strong>A. Checco</strong>, R. Razavi, D. Leith, and H. Claussen<br>
     IEEE 23rd International Symposium on Personal Indoor and Mobile Radio Communications (PIMRC) 2012<br>
-    [10] [<a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><img src="images/publications/bonding2015.png"/></td>
-<td>
-    <strong>On the interactions between multiple overlapping WLANs using channel bonding</strong><br>
-    B. Bellalta, <strong>A. Checco</strong>, A. Zocca, and J. Barcelo<br>
-    IEEE Transactions on Vehicular Technology 2016<br>
-    [11]<br>
+    [14] [<a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
