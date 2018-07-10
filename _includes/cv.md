@@ -89,12 +89,48 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
 <table class="table table-hover">
 
 <tr>
-<td class="col-md-3"><img src="images/publications/bonding2015.png"/></td>
+<td class="col-md-3"><img src="images/publications/otterbacher2018investigating.png"/></td>
 <td>
-    <strong>On the interactions between multiple overlapping WLANs using channel bonding</strong><br>
-    B. Bellalta, <strong>A. Checco</strong>, A. Zocca, and J. Barcelo<br>
-    IEEE Transactions on Vehicular Technology 2016<br>
+    <strong>Investigating User Perception of Gender Bias in Image Search: The Role of Sexism</strong><br>
+    J. Otterbacher, <strong>A. Checco</strong>, G. Demartini, and P. Clough<br>
+    The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval 2018<br>
     [1]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/checco2018all.png"/></td>
+<td>
+    <strong>All That Glitters is Gold-An Attack Scheme on Gold Questions in Crowdsourcing (BEST PAPER AWARD)</strong><br>
+    <strong>A. Checco</strong>, J. Bates, and G. Demartini<br>
+    Proceedings of the AAAI Conference on Human Computation and Crowdsourcing 2018<br>
+    [2]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/chernushenko2018crowd.png"/></td>
+<td>
+    <strong>Crowd-Labeling Fashion Reviews with Quality Control</strong><br>
+    I. Chernushenko, F. Gers, A. Loeser, and <strong>A. Checco</strong><br>
+    arXiv preprint arXiv:1805.09648 2018<br>
+    [3]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/checco2018updating.png"/></td>
+<td>
+    <strong>Updating Neighbour Cell List via Crowdsourced User Reports: A Framework for Measuring Time Performance</strong><br>
+    <strong>A. Checco</strong>, C. Lancia, and D. Leith<br>
+    Wireless Communications and Mobile Computing 2018<br>
+    [4]<br>
     
 </td>
 </tr>
@@ -106,7 +142,19 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Let's agree to disagree: Fixing agreement measures for crowdsourcing</strong><br>
     <strong>A. Checco</strong>, A. Roitero, E. Maddalena, S. Mizzaro, and G. Demartini<br>
     Proceedings of the Fifth AAAI Conference on Human Computation and Crowdsourcing (HCOMP-17) 2017<br>
-    [2]<br>
+    [5]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/bonding2015.png"/></td>
+<td>
+    <strong>On the interactions between multiple overlapping WLANs using channel bonding</strong><br>
+    B. Bellalta, <strong>A. Checco</strong>, A. Zocca, and J. Barcelo<br>
+    IEEE Transactions on Vehicular Technology 2016<br>
+    [6]<br>
     
 </td>
 </tr>
@@ -118,7 +166,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Channel Bonding in Short-Range WLANs</strong><br>
     B. Bellalta, A. Faridi, J. Barcelo, <strong>A. Checco</strong>, and P. Chatzimisios<br>
     European Wireless 2014<br>
-    [3] [<a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'>pdf</a>] <br>
+    [7] [<a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -130,7 +178,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Throughput Analysis in CSMA/CA Networks using Continuous Time Markov Networks: A Tutorial</strong><br>
     B. Bellalta, A. Zocca, C. Cano, <strong>A. Checco</strong>, J. Barcelo, and A. Vinel<br>
     arXiv preprint arXiv:1404.0180 2014<br>
-    [4] [<a href='http://arxiv.org/pdf/1404.0180' target='_blank'>pdf</a>] <br>
+    [8] [<a href='http://arxiv.org/pdf/1404.0180' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -142,7 +190,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Recommending access points to individual mobile users via automatic group learning</strong><br>
     B. Partov, D. Leith, and <strong>A. Checco</strong><br>
     Communications (ICC), 2017 IEEE International Conference on 2017<br>
-    [5]<br>
+    [9]<br>
     
 </td>
 </tr>
@@ -154,7 +202,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>BLC: Private Matrix Factorization Recommenders via Automatic Group Learning</strong><br>
     <strong>A. Checco</strong>, G. Bianchi, and D. Leith<br>
     ACM Transactions on Privacy and Security (TOPS) 2017<br>
-    [6] [<a href='https://arxiv.org/pdf/1509.05789' target='_blank'>pdf</a>] <br>
+    [10] [<a href='https://arxiv.org/pdf/1509.05789' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -166,19 +214,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Pairwise, Magnitude, or Stars: What's the Best Way for Crowds to Rate?</strong><br>
     <strong>A. Checco</strong> and G. Demartini<br>
     arXiv preprint arXiv:1609.00683 2016<br>
-    [7] [<a href='https://arxiv.org/pdf/1609.00683' target='_blank'>pdf</a>] <br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='http://arxiv.org/pdf/1401.1551' target='_blank'><img src="images/publications/checco2014using.png"/></a> </td>
-<td>
-    <strong>Using Crowd sourcing for Local Topology Discovery in Wireless Networks</strong><br>
-    <strong>A. Checco</strong>, C. Lancia, and D. Leith<br>
-    arXiv preprint arXiv:1401.1551 2014<br>
-    [8] [<a href='http://arxiv.org/pdf/1401.1551' target='_blank'>pdf</a>] <br>
+    [11] [<a href='https://arxiv.org/pdf/1609.00683' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -190,7 +226,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Modus operandi of crowd workers: The invisible role of microtask work environments</strong><br>
     U. Gadiraju, <strong>A. Checco</strong>, N. Gupta, and G. Demartini<br>
     Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2017<br>
-    [9]<br>
+    [12]<br>
     
 </td>
 </tr>
@@ -202,7 +238,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Fast, Responsive Decentralized Graph Coloring</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     IEEE/ACM Transactions on Networking 2017<br>
-    [10] [<a href='https://arxiv.org/pdf/1405.6987' target='_blank'>pdf</a>] <br>
+    [13] [<a href='https://arxiv.org/pdf/1405.6987' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -214,7 +250,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Learning-Based Constraint Satisfaction With Sensing Restrictions</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     IEEE Journal of Selected Topics in Signal Processing 2013<br>
-    [11] [<a href='http://arxiv.org/pdf/1210.7156' target='_blank'>pdf</a>] <br>
+    [14] [<a href='http://arxiv.org/pdf/1210.7156' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -226,7 +262,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Fair Virtualisation of 802.11 Networks</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     IEEE/ACM Transactions on Networking 2013<br>
-    [12] [<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'>pdf</a>] <br>
+    [15] [<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -238,7 +274,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Proportional Fairness in 802.11 Wireless LANs</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     IEEE Communications Letters 2011<br>
-    [13] [<a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'>pdf</a>] <br>
+    [16] [<a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -250,7 +286,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Self-configuration of Scrambling codes for WCDMA Small Cell Networks</strong><br>
     <strong>A. Checco</strong>, R. Razavi, D. Leith, and H. Claussen<br>
     IEEE 23rd International Symposium on Personal Indoor and Mobile Radio Communications (PIMRC) 2012<br>
-    [14] [<a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'>pdf</a>] <br>
+    [17] [<a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
