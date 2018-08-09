@@ -9,6 +9,57 @@
       type="application/rss+xml" />
     
     <item>
+      <title>Pyspark Intro</title>
+      <description>&lt;html&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+function detectBrowser()
+{
+	/*
+    var fallback = true;
+    
+    if (navigator &amp;&amp; navigator.vendor) {
+        if (navigator.vendor.search(&quot;Apple&quot;) != -1) {
+            var vers = parseInt(navigator.appVersion.replace(/^.*?AppleWebKit\/(\d+).*?$/,&#39;$1&#39;),0);
+                if (vers &gt;= 532) {
+                    fallback = false;
+                }
+        }
+    }
+    
+    var slashIndex = window.location.href.lastIndexOf(&quot;/&quot;);
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    if (fallback) {
+        window.location.replace( cropped + &quot;data/assets/fallback/index.html&quot; );
+    }
+    else {
+        window.location.replace( cropped + &quot;data/assets/player/KeynoteDHTMLPlayer.html&quot; );
+    }
+    */
+    var slashIndex = window.location.href.lastIndexOf(&quot;/&quot;);
+    var cropped = window.location.href.slice(0,slashIndex+1);
+    
+    window.location.replace(cropped + &quot;../../../../data/2017-03-21-pyspark-intro/player/KeynoteDHTMLPlayer.html&quot;);
+
+}
+
+&lt;/script&gt;
+
+&lt;body bgcolor=&quot;black&quot; onload=&quot;detectBrowser()&quot;&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</description>
+      <pubDate>
+        Tue, 21 Mar 2017 00:00:00 +0000
+      </pubDate>
+      <link>http://AlessandroChecco.github.io/2017/03/21/pyspark-intro/</link>
+      <guid isPermaLink="true">http://AlessandroChecco.github.io/2017/03/21/pyspark-intro/</guid>
+    </item>
+    
+    <item>
       <title>Modus Operandi of Crowd Workers: The Invisible Role of Microtask Work Environments</title>
       <description>&lt;html&gt;
 
@@ -41,7 +92,7 @@ function detectBrowser()
     var slashIndex = window.location.href.lastIndexOf(&quot;/&quot;);
     var cropped = window.location.href.slice(0,slashIndex+1);
     
-    window.location.replace(cropped + &quot;../../../../data/assets/player/KeynoteDHTMLPlayer.html&quot;);
+    window.location.replace(cropped + &quot;../../../../data/2017-03-20-modop/player/KeynoteDHTMLPlayer.html&quot;);
 
 }
 
