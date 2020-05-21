@@ -89,84 +89,84 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
 <table class="table table-hover">
 
 <tr>
-<td class="col-md-3"><img src="images/publications/checco2020adversarial.png"/></td>
+<td class="col-md-3"><a href='https://www.jair.org/index.php/jair/article/view/11332' target='_blank'><img src="images/publications/checco2020adversarial.png"/></a> </td>
 <td>
     <strong>Adversarial Attacks on Crowdsourcing Quality Control</strong><br>
     <strong>A. Checco</strong>, J. Bates, and G. Demartini<br>
     Journal of Artificial Intelligence Research 2020<br>
-    [1]<br>
+    [1] [<a href='https://www.jair.org/index.php/jair/article/view/11332' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/han2020crowd.png"/></td>
+<td class="col-md-3"><a href='https://dl.acm.org/doi/pdf/10.1145/3336191.3371857' target='_blank'><img src="images/publications/han2020crowd.png"/></a> </td>
 <td>
     <strong>Crowd worker strategies in relevance judgment tasks</strong><br>
     L. Han, E. Maddalena, <strong>A. Checco</strong>, C. Sarasua, U. Gadiraju, K. Roitero, and G. Demartini<br>
     Proceedings of the 13th International Conference on Web Search and Data Mining 2020<br>
-    [2]<br>
+    [2] [<a href='https://dl.acm.org/doi/pdf/10.1145/3336191.3371857' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/qarout2019platform.png"/></td>
+<td class="col-md-3"><a href='https://www.aaai.org/ojs/index.php/HCOMP/article/download/5264/5116/' target='_blank'><img src="images/publications/qarout2019platform.png"/></a> </td>
 <td>
     <strong>Platform-Related Factors in Repeatability and Reproducibility of Crowdsourcing Tasks</strong><br>
     R. Qarout, <strong>A. Checco</strong>, G. Demartini, and K. Bontcheva<br>
     Proceedings of the AAAI Conference on Human Computation and Crowdsourcing 2019<br>
-    [3]<br>
+    [3] [<a href='https://www.aaai.org/ojs/index.php/HCOMP/article/download/5264/5116/' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/han2019impact.png"/></td>
+<td class="col-md-3"><a href='https://ieeexplore.ieee.org/document/8873609' target='_blank'><img src="images/publications/han2019impact.png"/></a> </td>
 <td>
     <strong>The impact of task abandonment in crowdsourcing</strong><br>
     L. Han, K. Roitero, U. Gadiraju, C. Sarasua, <strong>A. Checco</strong>, E. Maddalena, and G. Demartini<br>
     IEEE Transactions on Knowledge and Data Engineering 2019<br>
-    [4]<br>
+    [4] [<a href='https://ieeexplore.ieee.org/document/8873609' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/sarasua2019evolution.png"/></td>
+<td class="col-md-3"><a href='https://link.springer.com/content/pdf/10.1007/s10606-018-9344-y.pdf' target='_blank'><img src="images/publications/sarasua2019evolution.png"/></a> </td>
 <td>
     <strong>The evolution of power and standard Wikidata editors: comparing editing behavior over time to predict lifespan and volume of edits</strong><br>
     C. Sarasua, <strong>A. Checco</strong>, G. Demartini, D. Difallah, M. Feldman, and L. Pintscher<br>
     Computer Supported Cooperative Work (CSCW) 2019<br>
-    [5]<br>
+    [5] [<a href='https://link.springer.com/content/pdf/10.1007/s10606-018-9344-y.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/difallah2019deadline.png"/></td>
+<td class="col-md-3"><a href='https://dl.acm.org/doi/pdf/10.1145/3301003' target='_blank'><img src="images/publications/difallah2019deadline.png"/></a> </td>
 <td>
     <strong>Deadline-Aware Fair Scheduling for Multi-Tenant Crowd-Powered Systems</strong><br>
     D. Difallah, <strong>A. Checco</strong>, G. Demartini, and P. Cudr\'e-Mauroux<br>
     ACM Transactions on Social Computing 2019<br>
-    [6]<br>
+    [6] [<a href='https://dl.acm.org/doi/pdf/10.1145/3301003' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/otterbacher2018investigating.png"/></td>
+<td class="col-md-3"><a href='https://dl.acm.org/doi/10.1145/3209978.3210094' target='_blank'><img src="images/publications/otterbacher2018investigating.png"/></a> </td>
 <td>
     <strong>Investigating User Perception of Gender Bias in Image Search: The Role of Sexism</strong><br>
     J. Otterbacher, <strong>A. Checco</strong>, G. Demartini, and P. Clough<br>
     The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval 2018<br>
-    [7]<br>
+    [7] [<a href='https://dl.acm.org/doi/10.1145/3209978.3210094' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
