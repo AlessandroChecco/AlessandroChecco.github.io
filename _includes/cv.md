@@ -50,7 +50,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
 ## <i class="fa fa-chevron-right"></i> Research Experience
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>2017 - present</td>
+  <td class='col-md-3'>2017 - 2018</td>
   <td>
     <strong>Information School, University of Sheffield</strong>, Dr. Gianluca Demartini <br>
     <small>Research Director of the H2020-funded project FashionBrain on Crowsourcing and recommender systems </small> <br>
@@ -173,12 +173,12 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/checco2018all.png"/></td>
+<td class="col-md-3"><a href='https://aaai.org/ocs/index.php/HCOMP/HCOMP18/paper/view/17925/16904' target='_blank'><img src="images/publications/checco2018all.png"/></a> </td>
 <td>
     <strong>All That Glitters is Gold-An Attack Scheme on Gold Questions in Crowdsourcing (BEST PAPER AWARD)</strong><br>
     <strong>A. Checco</strong>, J. Bates, and G. Demartini<br>
     Proceedings of the AAAI Conference on Human Computation and Crowdsourcing 2018<br>
-    [8]<br>
+    [8] [<a href='https://aaai.org/ocs/index.php/HCOMP/HCOMP18/paper/view/17925/16904' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
