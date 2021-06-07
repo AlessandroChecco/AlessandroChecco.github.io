@@ -89,60 +89,60 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
 <table class="table table-hover">
 
 <tr>
-<td class="col-md-3"><img src="images/publications/checco2020internet.png"/></td>
-<td>
-    <strong>Internet of Trees: A Vision for Advanced Monitoring of Crops.</strong><br>
-    <strong>A. Checco</strong> and D. Polese<br>
-    SENSORNETS 2020<br>
-    [1]<br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><img src="images/publications/checco2021ai.png"/></td>
+<td class="col-md-3"><a href='https://www.nature.com/articles/s41599-020-00703-8' target='_blank'><img src="images/publications/checco2021ai.png"/></a> </td>
 <td>
     <strong>AI-assisted peer review</strong><br>
     <strong>A. Checco</strong>, L. Bracciale, P. Loreti, S. Pinfield, and G. Bianchi<br>
     Humanities and Social Sciences Communications 2021<br>
-    [2]<br>
+    [1] [<a href='https://www.nature.com/articles/s41599-020-00703-8' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/abbott2021smart.png"/></td>
+<td class="col-md-3"><a href='https://www.scitepress.org/Papers/2021/104167/104167.pdf' target='_blank'><img src="images/publications/abbott2021smart.png"/></a> </td>
 <td>
     <strong>Smart Farming in sub-Saharan Africa: Challenges and Opportunities.</strong><br>
     P. Abbott, <strong>A. Checco</strong>, and D. Polese<br>
     SENSORNETS 2021<br>
-    [3]<br>
+    [2] [<a href='https://www.scitepress.org/Papers/2021/104167/104167.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/fan2020crowdco.png"/></td>
+<td class="col-md-3"><a href='https://www.scitepress.org/Papers/2020/93688/93688.pdf' target='_blank'><img src="images/publications/checco2020internet.png"/></a> </td>
+<td>
+    <strong>Internet of Trees: A Vision for Advanced Monitoring of Crops.</strong><br>
+    <strong>A. Checco</strong> and D. Polese<br>
+    SENSORNETS 2020<br>
+    [3] [<a href='https://www.scitepress.org/Papers/2020/93688/93688.pdf' target='_blank'>pdf</a>] <br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://www.researchgate.net/profile/Ujwal-Gadiraju/publication/344547725_CrowdCO-OP_Sharing_Risks_and_Rewards_in_Crowdsourcing/links/5f7f63a0299bf1b53e1832f9/CrowdCO-OP-Sharing-Risks-and-Rewards-in-Crowdsourcing.pdf' target='_blank'><img src="images/publications/fan2020crowdco.png"/></a> </td>
 <td>
     <strong>CrowdCO-OP: Sharing Risks and Rewards in Crowdsourcing</strong><br>
     S. Fan, U. Gadiraju, <strong>A. Checco</strong>, and G. Demartini<br>
     Proceedings of the ACM on Human-Computer Interaction 2020<br>
-    [4]<br>
+    [4] [<a href='https://www.researchgate.net/profile/Ujwal-Gadiraju/publication/344547725_CrowdCO-OP_Sharing_Risks_and_Rewards_in_Crowdsourcing/links/5f7f63a0299bf1b53e1832f9/CrowdCO-OP-Sharing-Risks-and-Rewards-in-Crowdsourcing.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr>
-<td class="col-md-3"><img src="images/publications/han2020modelling.png"/></td>
+<td class="col-md-3"><a href='https://dl.acm.org/doi/abs/10.1145/3340531.3411985' target='_blank'><img src="images/publications/han2020modelling.png"/></a> </td>
 <td>
     <strong>Modelling User Behavior Dynamics with Embeddings</strong><br>
     L. Han, <strong>A. Checco</strong>, D. Difallah, G. Demartini, and S. Sadiq<br>
     Proceedings of the 29th ACM International Conference on Information & Knowledge Management 2020<br>
-    [5]<br>
+    [5] [<a href='https://dl.acm.org/doi/abs/10.1145/3340531.3411985' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -456,7 +456,7 @@ Bash, C, C++, CSS, Matlab, JavaScript, Fortran, HTML, LaTeX, *Mathematica*, Pyth
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Spark, Cloudera, Pandas, NumPy, SciPy, SimPy, scikit-learn
+Spark, Cloudera, Pandas, NumPy, SciPy, SimPy, scikit-learn, keras, pymc3
   </td>
 </tr>
 <tr>
