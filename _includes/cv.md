@@ -5,7 +5,17 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">Feb 2015</td>
+    <td class="col-md-3">2020</td>
+    <td>
+        <strong>Fellowship of Higher Education</strong>
+        <br>
+      The University of Sheffield
+      <br>
+        <small><a href="https://www.advance-he.ac.uk/fellowship">Higher Education Academy</a></small>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-3">2015</td>
     <td>
         <strong>Ph.D. in Mathematics</strong>
         <br>
