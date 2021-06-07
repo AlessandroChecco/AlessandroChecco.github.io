@@ -89,12 +89,72 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
 <table class="table table-hover">
 
 <tr>
+<td class="col-md-3"><img src="images/publications/checco2020internet.png"/></td>
+<td>
+    <strong>Internet of Trees: A Vision for Advanced Monitoring of Crops.</strong><br>
+    <strong>A. Checco</strong> and D. Polese<br>
+    SENSORNETS 2020<br>
+    [1]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/checco2021ai.png"/></td>
+<td>
+    <strong>AI-assisted peer review</strong><br>
+    <strong>A. Checco</strong>, L. Bracciale, P. Loreti, S. Pinfield, and G. Bianchi<br>
+    Humanities and Social Sciences Communications 2021<br>
+    [2]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/abbott2021smart.png"/></td>
+<td>
+    <strong>Smart Farming in sub-Saharan Africa: Challenges and Opportunities.</strong><br>
+    P. Abbott, <strong>A. Checco</strong>, and D. Polese<br>
+    SENSORNETS 2021<br>
+    [3]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/fan2020crowdco.png"/></td>
+<td>
+    <strong>CrowdCO-OP: Sharing Risks and Rewards in Crowdsourcing</strong><br>
+    S. Fan, U. Gadiraju, <strong>A. Checco</strong>, and G. Demartini<br>
+    Proceedings of the ACM on Human-Computer Interaction 2020<br>
+    [4]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><img src="images/publications/han2020modelling.png"/></td>
+<td>
+    <strong>Modelling User Behavior Dynamics with Embeddings</strong><br>
+    L. Han, <strong>A. Checco</strong>, D. Difallah, G. Demartini, and S. Sadiq<br>
+    Proceedings of the 29th ACM International Conference on Information & Knowledge Management 2020<br>
+    [5]<br>
+    
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='https://www.jair.org/index.php/jair/article/view/11332' target='_blank'><img src="images/publications/checco2020adversarial.png"/></a> </td>
 <td>
     <strong>Adversarial Attacks on Crowdsourcing Quality Control</strong><br>
     <strong>A. Checco</strong>, J. Bates, and G. Demartini<br>
     Journal of Artificial Intelligence Research 2020<br>
-    [1] [<a href='https://www.jair.org/index.php/jair/article/view/11332' target='_blank'>pdf</a>] <br>
+    [6] [<a href='https://www.jair.org/index.php/jair/article/view/11332' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -106,7 +166,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Crowd worker strategies in relevance judgment tasks</strong><br>
     L. Han, E. Maddalena, <strong>A. Checco</strong>, C. Sarasua, U. Gadiraju, K. Roitero, and G. Demartini<br>
     Proceedings of the 13th International Conference on Web Search and Data Mining 2020<br>
-    [2] [<a href='https://dl.acm.org/doi/pdf/10.1145/3336191.3371857' target='_blank'>pdf</a>] <br>
+    [7] [<a href='https://dl.acm.org/doi/pdf/10.1145/3336191.3371857' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -118,7 +178,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Platform-Related Factors in Repeatability and Reproducibility of Crowdsourcing Tasks</strong><br>
     R. Qarout, <strong>A. Checco</strong>, G. Demartini, and K. Bontcheva<br>
     Proceedings of the AAAI Conference on Human Computation and Crowdsourcing 2019<br>
-    [3] [<a href='https://www.aaai.org/ojs/index.php/HCOMP/article/download/5264/5116/' target='_blank'>pdf</a>] <br>
+    [8] [<a href='https://www.aaai.org/ojs/index.php/HCOMP/article/download/5264/5116/' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -130,7 +190,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>The impact of task abandonment in crowdsourcing</strong><br>
     L. Han, K. Roitero, U. Gadiraju, C. Sarasua, <strong>A. Checco</strong>, E. Maddalena, and G. Demartini<br>
     IEEE Transactions on Knowledge and Data Engineering 2019<br>
-    [4] [<a href='https://ieeexplore.ieee.org/document/8873609' target='_blank'>pdf</a>] <br>
+    [9] [<a href='https://ieeexplore.ieee.org/document/8873609' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -142,7 +202,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>The evolution of power and standard Wikidata editors: comparing editing behavior over time to predict lifespan and volume of edits</strong><br>
     C. Sarasua, <strong>A. Checco</strong>, G. Demartini, D. Difallah, M. Feldman, and L. Pintscher<br>
     Computer Supported Cooperative Work (CSCW) 2019<br>
-    [5] [<a href='https://link.springer.com/content/pdf/10.1007/s10606-018-9344-y.pdf' target='_blank'>pdf</a>] <br>
+    [10] [<a href='https://link.springer.com/content/pdf/10.1007/s10606-018-9344-y.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -154,7 +214,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Deadline-Aware Fair Scheduling for Multi-Tenant Crowd-Powered Systems</strong><br>
     D. Difallah, <strong>A. Checco</strong>, G. Demartini, and P. Cudr\'e-Mauroux<br>
     ACM Transactions on Social Computing 2019<br>
-    [6] [<a href='https://dl.acm.org/doi/pdf/10.1145/3301003' target='_blank'>pdf</a>] <br>
+    [11] [<a href='https://dl.acm.org/doi/pdf/10.1145/3301003' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -166,7 +226,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Investigating User Perception of Gender Bias in Image Search: The Role of Sexism</strong><br>
     J. Otterbacher, <strong>A. Checco</strong>, G. Demartini, and P. Clough<br>
     The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval 2018<br>
-    [7] [<a href='https://dl.acm.org/doi/10.1145/3209978.3210094' target='_blank'>pdf</a>] <br>
+    [12] [<a href='https://dl.acm.org/doi/10.1145/3209978.3210094' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -178,7 +238,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>All That Glitters is Gold-An Attack Scheme on Gold Questions in Crowdsourcing (BEST PAPER AWARD)</strong><br>
     <strong>A. Checco</strong>, J. Bates, and G. Demartini<br>
     Proceedings of the AAAI Conference on Human Computation and Crowdsourcing 2018<br>
-    [8] [<a href='https://aaai.org/ocs/index.php/HCOMP/HCOMP18/paper/view/17925/16904' target='_blank'>pdf</a>] <br>
+    [13] [<a href='https://aaai.org/ocs/index.php/HCOMP/HCOMP18/paper/view/17925/16904' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -190,7 +250,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Crowd-Labeling Fashion Reviews with Quality Control</strong><br>
     I. Chernushenko, F. Gers, A. Loeser, and <strong>A. Checco</strong><br>
     arXiv preprint arXiv:1805.09648 2018<br>
-    [9]<br>
+    [14]<br>
     
 </td>
 </tr>
@@ -202,7 +262,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Updating Neighbour Cell List via Crowdsourced User Reports: A Framework for Measuring Time Performance</strong><br>
     <strong>A. Checco</strong>, C. Lancia, and D. Leith<br>
     Wireless Communications and Mobile Computing 2018<br>
-    [10]<br>
+    [15]<br>
     
 </td>
 </tr>
@@ -214,7 +274,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Let's agree to disagree: Fixing agreement measures for crowdsourcing</strong><br>
     <strong>A. Checco</strong>, A. Roitero, E. Maddalena, S. Mizzaro, and G. Demartini<br>
     Proceedings of the Fifth AAAI Conference on Human Computation and Crowdsourcing (HCOMP-17) 2017<br>
-    [11]<br>
+    [16]<br>
     
 </td>
 </tr>
@@ -226,7 +286,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>On the interactions between multiple overlapping WLANs using channel bonding</strong><br>
     B. Bellalta, <strong>A. Checco</strong>, A. Zocca, and J. Barcelo<br>
     IEEE Transactions on Vehicular Technology 2016<br>
-    [12]<br>
+    [17]<br>
     
 </td>
 </tr>
@@ -238,7 +298,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Channel Bonding in Short-Range WLANs</strong><br>
     B. Bellalta, A. Faridi, J. Barcelo, <strong>A. Checco</strong>, and P. Chatzimisios<br>
     European Wireless 2014<br>
-    [13] [<a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'>pdf</a>] <br>
+    [18] [<a href='http://www.tecn.upf.es/~bbellalt/ChannelBondingShortRangeWLANs.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -250,7 +310,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Throughput Analysis in CSMA/CA Networks using Continuous Time Markov Networks: A Tutorial</strong><br>
     B. Bellalta, A. Zocca, C. Cano, <strong>A. Checco</strong>, J. Barcelo, and A. Vinel<br>
     arXiv preprint arXiv:1404.0180 2014<br>
-    [14] [<a href='http://arxiv.org/pdf/1404.0180' target='_blank'>pdf</a>] <br>
+    [19] [<a href='http://arxiv.org/pdf/1404.0180' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -262,7 +322,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Recommending access points to individual mobile users via automatic group learning</strong><br>
     B. Partov, D. Leith, and <strong>A. Checco</strong><br>
     Communications (ICC), 2017 IEEE International Conference on 2017<br>
-    [15]<br>
+    [20]<br>
     
 </td>
 </tr>
@@ -274,7 +334,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>BLC: Private Matrix Factorization Recommenders via Automatic Group Learning</strong><br>
     <strong>A. Checco</strong>, G. Bianchi, and D. Leith<br>
     ACM Transactions on Privacy and Security (TOPS) 2017<br>
-    [16] [<a href='https://arxiv.org/pdf/1509.05789' target='_blank'>pdf</a>] <br>
+    [21] [<a href='https://arxiv.org/pdf/1509.05789' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -286,7 +346,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Pairwise, Magnitude, or Stars: What's the Best Way for Crowds to Rate?</strong><br>
     <strong>A. Checco</strong> and G. Demartini<br>
     arXiv preprint arXiv:1609.00683 2016<br>
-    [17] [<a href='https://arxiv.org/pdf/1609.00683' target='_blank'>pdf</a>] <br>
+    [22] [<a href='https://arxiv.org/pdf/1609.00683' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -298,7 +358,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Modus operandi of crowd workers: The invisible role of microtask work environments</strong><br>
     U. Gadiraju, <strong>A. Checco</strong>, N. Gupta, and G. Demartini<br>
     Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2017<br>
-    [18]<br>
+    [23]<br>
     
 </td>
 </tr>
@@ -310,7 +370,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Fast, Responsive Decentralized Graph Coloring</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     IEEE/ACM Transactions on Networking 2017<br>
-    [19] [<a href='https://arxiv.org/pdf/1405.6987' target='_blank'>pdf</a>] <br>
+    [24] [<a href='https://arxiv.org/pdf/1405.6987' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -322,7 +382,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Learning-Based Constraint Satisfaction With Sensing Restrictions</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     IEEE Journal of Selected Topics in Signal Processing 2013<br>
-    [20] [<a href='http://arxiv.org/pdf/1210.7156' target='_blank'>pdf</a>] <br>
+    [25] [<a href='http://arxiv.org/pdf/1210.7156' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -334,7 +394,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Fair Virtualisation of 802.11 Networks</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     IEEE/ACM Transactions on Networking 2013<br>
-    [21] [<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'>pdf</a>] <br>
+    [26] [<a href='http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6689352' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -346,7 +406,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Proportional Fairness in 802.11 Wireless LANs</strong><br>
     <strong>A. Checco</strong> and D. Leith<br>
     IEEE Communications Letters 2011<br>
-    [22] [<a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'>pdf</a>] <br>
+    [27] [<a href='http://www.hamilton.ie/net/single-hop-propfair.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -358,7 +418,7 @@ Mathematical engineer, particularly interested in Crowdsourcing for Human Comput
     <strong>Self-configuration of Scrambling codes for WCDMA Small Cell Networks</strong><br>
     <strong>A. Checco</strong>, R. Razavi, D. Leith, and H. Claussen<br>
     IEEE 23rd International Symposium on Personal Indoor and Mobile Radio Communications (PIMRC) 2012<br>
-    [23] [<a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'>pdf</a>] <br>
+    [28] [<a href='http://www.hamilton.ie/net/pimrc2012.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
