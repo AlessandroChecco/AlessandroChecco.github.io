@@ -1,4 +1,4 @@
-Mathematical engineer, particularly interested in Crowdsourcing for Human Computation, Distributed Private Recommender Systems, Information Retrieval, Data Privacy, Distributed Systems, User Data Obfuscation in Web Systems, Societal and Economic Analysis of Online Work, Crowd Workers Unionisation, Algorithmic Bias. I am the project coordinator of the <a href="http://fashionbrain-project.eu/">FashionBrain project</a>.
+Mathematical engineer, particularly interested in Crowdsourcing for Human Computation, Distributed Private Recommender Systems, Information Retrieval, Data Privacy, Distributed Systems, User Data Obfuscation in Web Systems, Societal and Economic Analysis of Online Work, Crowd Workers Unionisation, Algorithmic Bias. I was the project coordinator of the <a href="http://fashionbrain-project.eu/">FashionBrain project</a>.
 
 
 ## <i class="fa fa-chevron-right"></i> Education
