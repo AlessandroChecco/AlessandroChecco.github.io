@@ -46,8 +46,9 @@ permalink: /publications/
 <script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@master/src/bibtex_js.js"></script>
 
 <script>
-  // Make DOI links clickable if present
   document.addEventListener('bibtex_js_loaded', function () {
+
+    // DOI links
     document.querySelectorAll('#bibtex_display .doi').forEach(a => {
       const doi = a.textContent.trim();
       if (doi) {
@@ -58,7 +59,7 @@ permalink: /publications/
       }
     });
 
-    // Make URL links pretty
+    // URL links
     document.querySelectorAll('#bibtex_display .url').forEach(a => {
       const url = a.getAttribute('href') || a.textContent.trim();
       if (url) {
@@ -69,24 +70,38 @@ permalink: /publications/
       }
     });
 
-        document.querySelectorAll('#bibtex_display .pub-row').forEach(row => {
-      const keyEl = row.querySelector('.pub-key');
-      const imgEl = row.querySelector('.pub-img');
-      if (!keyEl || !imgEl) return;
+    // Thumbnails (retry until bibtex-js has rendered rows)
+    const base = "{{ '/assets/images/pubs/' | relative_url }}";
+    let tries = 0;
 
-      const key = (keyEl.textContent || '').trim();
-      if (!key) return;
+    const timer = setInterval(() => {
+      tries += 1;
 
-      const base = "{{ '/assets/images/pubs/' | relative_url }}";
-      imgEl.src = base + key + ".png";
-      imgEl.style.display = "";
-      
-      imgEl.onerror = () => {
-        imgEl.style.display = "none";
-      };
+      const rows = document.querySelectorAll('#bibtex_display .pub-row');
+      console.log("thumb rows:", rows.length, "try:", tries);
 
-          
-    });
+      rows.forEach(row => {
+        const keyEl = row.querySelector('.pub-key');
+        const imgEl = row.querySelector('.pub-img');
+        if (!keyEl || !imgEl) return;
+
+        // skip if already set
+        if (imgEl.dataset.bound) return;
+        imgEl.dataset.bound = "1";
+
+        const key = (keyEl.textContent || '').trim();
+        if (!key) return;
+
+        const png = base + key + ".png";
+        imgEl.onload = () => { imgEl.style.display = ""; };
+        imgEl.onerror = () => { imgEl.style.display = "none"; };
+
+        imgEl.src = png;
+      });
+
+      // Stop when rows exist or after ~3 seconds
+      if (rows.length > 0 || tries >= 10) clearInterval(timer);
+    }, 300);
   });
 </script>
 
