@@ -4,47 +4,70 @@ title: "Publications"
 permalink: /publications/
 ---
 
-<div id="bib-output">Loading publications…</div>
+<style>
+  .pub-row { display:flex; gap:1rem; margin: 0 0 1rem 0; align-items:flex-start; }
+  .pub-thumb { width:120px; flex: 0 0 120px; }
+  .pub-thumb img { max-width:120px; height:auto; border-radius:6px; }
+  .pub-body { flex: 1 1 auto; }
+  .pub-title { font-weight:600; }
+  .pub-meta { font-size:0.95em; opacity:0.9; }
+</style>
 
-<!-- Citation.js browser bundle (defines require() and registers 'citation-js' module) -->
-<script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
+<!-- BibTeX-js reads the BibTeX file from the "src" attribute -->
+<bibtex src="{{ '/assets/bibliography.bib' | relative_url }}"></bibtex>
+
+<!-- Template for each entry -->
+<div id="bibtex_display">
+  <div class="bibtex_template">
+    <div class="pub-row">
+      <div class="pub-thumb">
+        <img src="{{ '/assets/images/pubs/' | relative_url }}<span class="bibtexkey"></span>.jpg"
+             alt="thumbnail"
+             onerror="this.style.display='none'">
+      </div>
+      <div class="pub-body">
+        <div class="pub-title">
+          <span class="title"></span>
+        </div>
+        <div class="pub-meta">
+          <span class="author"></span>
+          (<span class="year"></span>)
+          <span class="journal"></span><span class="booktitle"></span>
+        </div>
+        <div class="pub-meta">
+          <a class="url" target="_blank"></a>
+          <a class="doi" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Load BibTeX-js -->
+<script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@master/src/bibtex_js.js"></script>
 
 <script>
-  (function () {
-    const outputEl = document.getElementById('bib-output');
-    const bibUrl = "{{ '/assets/bibliography.bib' | relative_url }}";
+  // Make DOI links clickable if present
+  document.addEventListener('bibtex_js_loaded', function () {
+    document.querySelectorAll('#bibtex_display .doi').forEach(a => {
+      const doi = a.textContent.trim();
+      if (doi) {
+        a.textContent = 'DOI';
+        a.href = 'https://doi.org/' + doi;
+      } else {
+        a.remove();
+      }
+    });
 
-    // Basic sanity checks
-    if (typeof require !== 'function') {
-      outputEl.textContent = "Error: Citation.js bundle did not provide require().";
-      return;
-    }
-
-    const Cite = require('citation-js');
-    if (typeof Cite !== 'function') {
-      outputEl.textContent = "Error: citation-js module did not load correctly.";
-      return;
-    }
-
-    fetch(bibUrl)
-      .then(r => {
-        if (!r.ok) throw new Error(`BibTeX fetch failed: ${r.status} ${r.statusText}`);
-        return r.text();
-      })
-      .then(bibtex => {
-        const cite = new Cite(bibtex);
-
-        const html = cite.format('bibliography', {
-          format: 'html',
-          template: 'apa',
-          lang: 'en-US'
-        });
-
-        outputEl.innerHTML = html;
-      })
-      .catch(err => {
-        console.error(err);
-        outputEl.textContent = "Failed to render publications (see console).";
-      });
-  })();
+    // Make URL links pretty
+    document.querySelectorAll('#bibtex_display .url').forEach(a => {
+      const url = a.getAttribute('href') || a.textContent.trim();
+      if (url) {
+        a.textContent = 'Link';
+        a.href = url;
+      } else {
+        a.remove();
+      }
+    });
+  });
 </script>
