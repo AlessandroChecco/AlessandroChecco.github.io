@@ -21,9 +21,8 @@ permalink: /publications/
   <div class="bibtex_template">
     <div class="pub-row">
       <div class="pub-thumb">
-        <img src="{{ '/assets/images/pubs/' | relative_url }}<span class="bibtexkey"></span>.jpg"
-             alt="thumbnail"
-             onerror="this.style.display='none'">
+        <img class="pub-img" alt="thumbnail" style="display:none;">
+        <span class="bibtexkey pub-key" style="display:none;"></span>
       </div>
       <div class="pub-body">
         <div class="pub-title">
@@ -68,6 +67,31 @@ permalink: /publications/
       } else {
         a.remove();
       }
+    });
+
+        document.querySelectorAll('#bibtex_display .pub-row').forEach(row => {
+      const keyEl = row.querySelector('.pub-key');
+      const imgEl = row.querySelector('.pub-img');
+      if (!keyEl || !imgEl) return;
+
+      const key = (keyEl.textContent || '').trim();
+      if (!key) return;
+
+      const base = "{{ '/assets/images/pubs/' | relative_url }}";
+      const jpg = base + key + ".jpg";
+      const png = base + key + ".png";
+
+      imgEl.style.display = "";
+      imgEl.src = jpg;
+
+      imgEl.onerror = function () {
+        if (!imgEl.dataset.fallback) {
+          imgEl.dataset.fallback = "1";
+          imgEl.src = png;
+        } else {
+          imgEl.style.display = "none";
+        }
+      };
     });
   });
 </script>
