@@ -7,7 +7,7 @@ permalink: /publications/
 <div id="bib-output">Loading publications…</div>
 
 <!-- Citation.js browser bundle (defines require() and registers 'citation-js' module) -->
-<script src="https://bundle.run/citation-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
 
 <script>
   (function () {
