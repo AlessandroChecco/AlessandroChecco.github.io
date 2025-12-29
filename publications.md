@@ -46,10 +46,12 @@ permalink: /publications/
 <script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@master/src/bibtex_js.js"></script>
 
 <script>
-  document.addEventListener('bibtex_js_loaded', function () {
+(function () {
+  const base = "{{ '/assets/images/pubs/' | relative_url }}";
 
+  function prettifyLinks() {
     // DOI links
-    document.querySelectorAll('#bibtex_display .doi').forEach(a => {
+    document.querySelectorAll('#bibtex_display .bibtexentry .doi').forEach(a => {
       const doi = a.textContent.trim();
       if (doi) {
         a.textContent = 'DOI';
@@ -60,7 +62,7 @@ permalink: /publications/
     });
 
     // URL links
-    document.querySelectorAll('#bibtex_display .url').forEach(a => {
+    document.querySelectorAll('#bibtex_display .bibtexentry .url').forEach(a => {
       const url = a.getAttribute('href') || a.textContent.trim();
       if (url) {
         a.textContent = 'Link';
@@ -69,14 +71,21 @@ permalink: /publications/
         a.remove();
       }
     });
+  }
 
-    // Thumbnails: only touch rendered entries (NOT the hidden template)
-    const base = "{{ '/assets/images/pubs/' | relative_url }}";
+  function applyThumbs() {
+    const entries = document.querySelectorAll('#bibtex_display .bibtexentry');
+    // Wait until bibtex-js has rendered entries
+    if (entries.length === 0) return false;
 
-    document.querySelectorAll('#bibtex_display .bibtexentry .pub-row').forEach(row => {
-      const keyEl = row.querySelector('.pub-key');
-      const imgEl = row.querySelector('.pub-img');
+    entries.forEach(entry => {
+      const keyEl = entry.querySelector('.pub-key');
+      const imgEl = entry.querySelector('.pub-img');
       if (!keyEl || !imgEl) return;
+
+      // Bind only once
+      if (imgEl.dataset.bound) return;
+      imgEl.dataset.bound = "1";
 
       const key = (keyEl.textContent || '').trim();
       if (!key) return;
@@ -88,5 +97,22 @@ permalink: /publications/
 
       imgEl.src = png;
     });
-  });
+
+    prettifyLinks();
+    return true;
+  }
+
+  // Poll for up to ~5 seconds until entries appear, then apply.
+  let tries = 0;
+  const timer = setInterval(() => {
+    tries += 1;
+    const done = applyThumbs();
+
+    // Debug line (remove later if you want)
+    // console.log("applyThumbs try", tries, "done", done);
+
+    if (done || tries >= 25) clearInterval(timer);
+  }, 200);
+})();
 </script>
+
