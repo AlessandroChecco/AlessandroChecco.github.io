@@ -8,6 +8,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-scholar
 
 # Optional but commonly used with Minimal Mistakes
 minimal_mistakes_skin: "default"
@@ -24,5 +25,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+scholar:
+  source: _bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
 
 
