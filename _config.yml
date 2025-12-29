@@ -1,0 +1,28 @@
+title: "Alessandro Checco"
+description: "Academic page"
+url: "https://AlessandroChecco.github.io"
+baseurl: "/test"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Optional but commonly used with Minimal Mistakes
+minimal_mistakes_skin: "default"
+
+# Build settings
+markdown: kramdown
+
+author:
+  avatar: "/assets/images/profile.jpg"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
+
