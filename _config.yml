@@ -1,7 +1,7 @@
 title: "Alessandro Checco"
 description: "Academic page"
 url: "https://AlessandroChecco.github.io"
-baseurl: "/test"
+baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
 
