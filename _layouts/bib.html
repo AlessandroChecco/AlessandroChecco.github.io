@@ -1,0 +1,30 @@
+---
+---
+<div class="pub-item" style="display:flex; gap:1rem; align-items:flex-start; margin: 0 0 1rem 0;">
+  <div style="flex: 0 0 140px;">
+    <img
+      src="{{ '/assets/images/pubs/' | relative_url }}{{ entry.key }}.jpg"
+      alt="thumbnail for {{ entry.key }}"
+      style="max-width:140px; height:auto; border-radius:6px;"
+      onerror="
+        if (!this.dataset.fallback) {
+          this.dataset.fallback = '1';
+          this.src='{{ '/assets/images/pubs/' | relative_url }}{{ entry.key }}.png';
+        } else {
+          this.style.display='none';
+        }"
+    />
+  </div>
+
+  <div style="flex: 1 1 auto;">
+    <div class="pub-citation">
+      {{ reference }}
+    </div>
+
+    {% if entry.doi %}
+      <div style="margin-top:0.25rem;">
+        <a href="https://doi.org/{{ entry.doi }}">DOI</a>
+      </div>
+    {% endif %}
+  </div>
+</div>
