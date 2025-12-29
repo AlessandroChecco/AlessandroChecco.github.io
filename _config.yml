@@ -1,26 +1,28 @@
-name: AlessandroChecco
-url: http://AlessandroChecco.github.io
-destination: ./_site
-twitter: alex_checco
-lsi: false
-port: 4000
-markdown: kramdown
-future: true
-kramdown:
-  parse_block_html: true
-  syntax_highlighter: rouge
-permalink: pretty
-#paginate: 5
-gems:
-  - jekyll-sitemap
+title: "Alessandro Checco"
+description: "Academic page"
+url: "https://AlessandroChecco.github.io"
+baseurl: ""
 
-exclude:
-  - .travis.yml
-  - validate.rb
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - bower_components
-  - update-vendor-deps.sh
-  - vendor/bundle
-  - vendor/bower.json
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Optional but commonly used with Minimal Mistakes
+minimal_mistakes_skin: "default"
+
+# Build settings
+markdown: kramdown
+
+author:
+  avatar: "/assets/images/profile.jpg"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
+
