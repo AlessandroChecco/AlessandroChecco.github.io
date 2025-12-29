@@ -70,42 +70,23 @@ permalink: /publications/
       }
     });
 
-    // Thumbnails (retry until bibtex-js has rendered rows)
+    // Thumbnails: only touch rendered entries (NOT the hidden template)
     const base = "{{ '/assets/images/pubs/' | relative_url }}";
-    let tries = 0;
 
-    const timer = setInterval(() => {
-      tries += 1;
+    document.querySelectorAll('#bibtex_display .bibtexentry .pub-row').forEach(row => {
+      const keyEl = row.querySelector('.pub-key');
+      const imgEl = row.querySelector('.pub-img');
+      if (!keyEl || !imgEl) return;
 
-      const rows = document.querySelectorAll('#bibtex_display .pub-row');
-      console.log("thumb rows:", rows.length, "try:", tries);
+      const key = (keyEl.textContent || '').trim();
+      if (!key) return;
 
-      rows.forEach(row => {
-        const keyEl = row.querySelector('.pub-key');
-        const imgEl = row.querySelector('.pub-img');
-        if (!keyEl || !imgEl) return;
+      const png = base + key + ".png";
 
-        // skip if already set
-        if (imgEl.dataset.bound) return;
-        imgEl.dataset.bound = "1";
+      imgEl.onload = () => { imgEl.style.display = ""; };
+      imgEl.onerror = () => { imgEl.style.display = "none"; };
 
-        const key = (keyEl.textContent || '').trim();
-        if (!key) return;
-
-        const png = base + key + ".png";
-        imgEl.onload = () => { imgEl.style.display = ""; };
-        imgEl.onerror = () => { imgEl.style.display = "none"; };
-
-        imgEl.src = png;
-      });
-
-      // Stop when rows exist or after ~3 seconds
-      if (rows.length > 0 || tries >= 10) clearInterval(timer);
-    }, 300);
+      imgEl.src = png;
+    });
   });
 </script>
-
-<script>
-  console.log("PUBLICATIONS PAGE CUSTOM JS LOADED");
-</script>
-
