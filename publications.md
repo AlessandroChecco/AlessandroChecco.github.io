@@ -13,49 +13,58 @@ permalink: /publications/
 
 <div id="bib-output">Loading publications…</div>
 
-<script type="module">
-  import { Cite } from "https://cdn.jsdelivr.net/npm/@citation-js/core@0.7.21/+esm";
-  import "https://cdn.jsdelivr.net/npm/@citation-js/plugin-bibtex@0.7.21/+esm";
-  import "https://cdn.jsdelivr.net/npm/@citation-js/plugin-csl@0.7.21/+esm";
+<!-- 1) AMD loader -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 
-  const bibUrl = "{{ '/assets/bibliography.bib' | relative_url }}";
+<!-- 2) Citation.js browser bundle (AMD module "citation-js") -->
+<script src="https://cdn.jsdelivr.net/npm/citation-js@0.7.21/build/citation.min.js"></script>
 
-  try {
-    const bibtex = await fetch(bibUrl).then(r => {
-      if (!r.ok) throw new Error(`BibTeX fetch failed: ${r.status} ${r.statusText}`);
-      return r.text();
-    });
+<script>
+  // 3) Use AMD require() to load the module
+  require(['citation-js'], function (Cite) {
+    const bibUrl = "{{ '/assets/bibliography.bib' | relative_url }}";
 
-    const cite = new Cite(bibtex);
+    fetch(bibUrl)
+      .then(r => {
+        if (!r.ok) throw new Error(`BibTeX fetch failed: ${r.status} ${r.statusText}`);
+        return r.text();
+      })
+      .then(bibtex => {
+        const cite = new Cite(bibtex);
 
-    // Basic bibliography HTML (APA). If you want a different style later, we can load/register it.
-    const entries = cite.get({ format: "object" });
+        // Cite#format() is the documented way to produce a bibliography
+        const entries = cite.data || [];
 
-    const html = entries.map(item => {
-      const key = item.id || item._id || item.citationKey || "";
-      const jpg = "{{ '/assets/images/pubs/' | relative_url }}" + key + ".jpg";
-      const png = "{{ '/assets/images/pubs/' | relative_url }}" + key + ".png";
+        const html = entries.map(item => {
+          // item.id is typically the BibTeX key after conversion
+          const key = item.id || '';
 
-      const entryHtml = new Cite(item).format("bibliography", {
-        format: "html",
-        template: "apa",
-        lang: "en-US"
+          const jpg = "{{ '/assets/images/pubs/' | relative_url }}" + key + ".jpg";
+          const png = "{{ '/assets/images/pubs/' | relative_url }}" + key + ".png";
+
+          const entryHtml = new Cite(item).format('bibliography', {
+            format: 'html',
+            template: 'apa',
+            lang: 'en-US'
+          });
+
+          return `
+            <div class="pub-item">
+              <div class="pub-thumb">
+                ${key ? `<img src="${jpg}" alt="${key}"
+                     onerror="if(!this.dataset.f){this.dataset.f=1; this.src='${png}'} else {this.style.display='none'}">` : ''}
+              </div>
+              <div class="pub-citation">${entryHtml}</div>
+            </div>
+          `;
+        }).join('');
+
+        document.getElementById('bib-output').innerHTML = html || 'No publications found.';
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById('bib-output').textContent = 'Failed to render publications (see console).';
       });
-
-      return `
-        <div class="pub-item">
-          <div class="pub-thumb">
-            ${key ? `<img src="${jpg}" alt="${key}"
-                 onerror="if(!this.dataset.f){this.dataset.f=1; this.src='${png}'} else {this.style.display='none'}">` : ""}
-          </div>
-          <div class="pub-citation">${entryHtml}</div>
-        </div>
-      `;
-    }).join("");
-
-    document.getElementById("bib-output").innerHTML = html || "No publications found.";
-  } catch (e) {
-    console.error(e);
-    document.getElementById("bib-output").textContent = "Failed to render publications (see console).";
-  }
+  });
 </script>
+
