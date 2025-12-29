@@ -14,4 +14,5 @@ I am Alessandro Checco, Associate Professor at the Computer Science Department, 
 
 ## Contact
 - alessandro.checco@uniroma1.it
-- Via Regina Elena 295, +39.06.49255.435 (36435)
+- Via Regina Elena 295, 00161, Rome
+- +39.06.49255.435 (36435)
