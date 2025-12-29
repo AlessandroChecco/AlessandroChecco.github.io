@@ -89,3 +89,8 @@ permalink: /publications/
     });
   });
 </script>
+
+<script>
+  console.log("PUBLICATIONS PAGE CUSTOM JS LOADED");
+</script>
+
