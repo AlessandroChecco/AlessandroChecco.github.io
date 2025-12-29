@@ -10,7 +10,7 @@ permalink: /publications/
 
 <script src="https://cdn.jsdelivr.net/npm/citation-js@0.7/dist/citation.min.js"></script>
 <script>
-  fetch('/_bibliography/references.bib')
+  fetch('/assets/references.bib')
     .then(response => response.text())
     .then(bibtex => {
       const Cite = citation.Cite || citation.Cite; // Citation.js object
