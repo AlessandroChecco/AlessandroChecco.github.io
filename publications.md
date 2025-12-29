@@ -8,7 +8,7 @@ permalink: /publications/
   <!-- JavaScript will render the bibliography here -->
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/citation-js@0.7/dist/citation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/citation-js/0.7.20/citation.min.js"></script>
 <script>
   fetch('/assets/references.bib')
     .then(response => response.text())
