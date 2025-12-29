@@ -4,4 +4,22 @@ title: "Publications"
 permalink: /publications/
 ---
 
-{% bibliography %}
+<div id="bib-output">
+  <!-- JavaScript will render the bibliography here -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/citation-js@0.7/dist/citation.min.js"></script>
+<script>
+  fetch('/_bibliography/references.bib')
+    .then(response => response.text())
+    .then(bibtex => {
+      const Cite = citation.Cite || citation.Cite; // Citation.js object
+      const cite = new Cite(bibtex);
+      const html = cite.format('bibliography', {
+        format: 'html',
+        template: 'apa',
+        lang: 'en-US'
+      });
+      document.getElementById('bib-output').innerHTML = html;
+    });
+</script>
