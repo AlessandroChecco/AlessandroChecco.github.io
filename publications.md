@@ -78,20 +78,14 @@ permalink: /publications/
       if (!key) return;
 
       const base = "{{ '/assets/images/pubs/' | relative_url }}";
-      const jpg = base + key + ".jpg";
-      const png = base + key + ".png";
-
+      imgEl.src = base + key + ".png";
       imgEl.style.display = "";
-      imgEl.src = jpg;
-
-      imgEl.onerror = function () {
-        if (!imgEl.dataset.fallback) {
-          imgEl.dataset.fallback = "1";
-          imgEl.src = png;
-        } else {
-          imgEl.style.display = "none";
-        }
+      
+      imgEl.onerror = () => {
+        imgEl.style.display = "none";
       };
+
+          
     });
   });
 </script>
