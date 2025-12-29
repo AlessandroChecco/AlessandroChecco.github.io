@@ -6,7 +6,8 @@ permalink: /publications/
 
 <div id="bib-output"></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/citation-js/0.7.20/citation.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/citation-js@0.7.21/build/citation.min.js"></script>
+
 
 <script>
   fetch('/assets/bibliography.bib')
