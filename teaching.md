@@ -16,4 +16,5 @@ Potete accedere al materiale dell'anno scorso su Google Classroom, codice udl23r
 
 
 ## Past
-- Coming soon..
+### Reti degli Elaboratori (2024/2025)
+Potete iscrivervi al seguente link [https://classroom.google.com/c/MjMwOTU4NzAwNzBa?cjc=sfh4tjl](https://classroom.google.com/c/MjMwOTU4NzAwNzBa?cjc=sfh4tjl) per informazioni sugli appelli rimanenti.
